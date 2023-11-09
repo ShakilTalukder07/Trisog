@@ -48,14 +48,15 @@ const Updates = () => {
                         <p className='font-bold'>The impact of covid-19 on <br /> travel & tourism industry.</p>
                     </div>
                 </div>
-
             </motion.div>
-            <hr className='my-10 mt-10' />
+
+            <hr className='mx-10 mt-10 ' />
+
             <motion.div
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 20 }}
                 viewport={{ once: true }}
-                className='flex justify-center items-center gap-4 my-10'>
+                className='flex flex-wrap justify-center items-center gap-4 my-10'>
                 <p className='font-bold [writing-mode:vertical-rl]'>@trisog</p>
                 <img src={image1} alt="" className='w-40 h-40' />
                 <img src={image2} alt="" className='w-40 h-40' />

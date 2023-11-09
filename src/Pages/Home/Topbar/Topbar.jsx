@@ -5,8 +5,8 @@ import { RiArrowDropDownLine } from 'react-icons/ri'
 
 const Topbar = () => {
     return (
-        <div className=''>
-        <div className='md:flex justify-between bg-[#f2f2f0] py-1 border-b px-6 sm:px-8 lg:px-20 hidden font-jost overflow-hidden'>
+        <div>
+        <div className='md:flex justify-between bg-[#f2f2f0] py-1  border-b px-4 sm:px-10 lg:px-20 hidden font-jost overflow-hidden'>
             <div className='flex items-center'>
                 <p> (000)999-898-999 </p>
                 <p className="mx-2"> | </p>

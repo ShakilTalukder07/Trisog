@@ -1,3 +1,4 @@
+import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Topbar from "../Topbar/Topbar";
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
             <Topbar></Topbar>
             <Navbar></Navbar>
+            <Contact></Contact>
             <Updates></Updates>
             <Footer></Footer>
         </div>
