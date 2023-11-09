@@ -24,20 +24,20 @@ const Footer = () => {
 
                 <div className="flex justify-evenly gap-6">
                     <div>
-                        <h3>Company</h3>
+                        <h3 className="mb-2 font-[Agbalumo]">Company</h3>
                         <p>About Us</p>
                         <p>Contact Us</p>
                         <p>Travel Guide</p>
                         <p>Data Policy</p>
                     </div>
                     <div>
-                        <h3>Top Destination</h3>
+                        <h3 className="mb-2 font-[Agbalumo]">Top Destination</h3>
                         <p>Las Vegas</p>
                         <p>New York City</p>
                         <p>San Francisco</p>
                         <p>Hawaii</p>
                     </div>
-                    <div>
+                    <div className="mt-8">
                         <p>Tokyo</p>
                         <p>Sydney</p>
                         <p>Melbourne</p>
@@ -48,7 +48,7 @@ const Footer = () => {
                 <div className="h-40 border-l border-gray-600"></div>
 
                 <div>
-                    <h3 className="mb-2">Sign up Newsletter</h3>
+                    <h3 className="mb-2 font-[Agbalumo]">Sign up Newsletter</h3>
                     <div className=" flex flex-col items-start justify-center gap-2">
                         <input type="text" placeholder="Enter email..." className="p-2 rounded-md" />
                         <button className="bg-yellow-300 px-4 py-1 rounded-md">Submit</button>
