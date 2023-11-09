@@ -5,7 +5,7 @@ import { AiOutlineTwitter, AiFillLinkedin, AiOutlineGoogle } from 'react-icons/a
 const Footer = () => {
     return (
         <footer className='bg-black text-white py-20 '>
-            <div className="flex justify-evenly">
+            <div className="flex flex-wrap lg:justify-evenly justify-center">
 
                 <div>
                     <h3 className="flex justify-start items-center gap-2">

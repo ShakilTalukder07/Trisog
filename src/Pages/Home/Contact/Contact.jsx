@@ -12,13 +12,12 @@ import image9 from '../../../assets/9.png'
 const Contact = () => {
     return (
         <>
-            <div className='flex flex-col md:flex-row lg:flex-row justify-evenly'
+            <div className='flex flex-col md:flex-row lg:flex-row justify-center lg:justify-evenly items-center gap-4'
                 style={{
                     background: `url(${backgroundImage})`,
                     backgroundSize: 'cover'
                 }}
             >
-
                 <div className='my-10'>
                     <MdSlowMotionVideo></MdSlowMotionVideo>
                     <h3 className='font-bold text-yellow-300 font-[Agbalumo] my-2'>Are you ready to travel?</h3>
@@ -27,7 +26,7 @@ const Contact = () => {
                 </div>
 
                 <div className='grid grid-cols-2 gap-4 my-10'>
-                    <div className='bg-white h-32 w-32 flex flex-col justify-center items-center'>
+                    <div className='bg-white h-32 w-32 flex flex-col justify-evenly items-center'>
                         <div className='bg-yellow-300 rounded-full w-10 h-10 flex justify-center items-center mb-1'>
                             <FaTree></FaTree>
                         </div>
@@ -54,7 +53,7 @@ const Contact = () => {
                 </div>
 
             </div>
-            <div className='bg-blue-600 py-10'>
+            <div className='bg-blue-900 py-10'>
                 <h2 className='text-yellow-300 font-[Agbalumo] text-center mb-5 text-xl'>Our Trusted Partners</h2>
                 <div className='flex justify-center items-center flex-wrap gap-5'>
                     <img src={image5} alt="" className='w-40 h-24' />

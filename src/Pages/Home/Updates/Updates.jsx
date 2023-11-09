@@ -13,7 +13,7 @@ const Updates = () => {
             </div>
             <motion.div 
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 20 }}
+            whileInView={{ opacity: 8 }}
             viewport={{ once: true }}
             className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-10">
 
