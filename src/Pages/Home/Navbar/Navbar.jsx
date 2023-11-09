@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <div className='shadow-md w-full fixed top-0 left-0'>
-            <div className='md:flex items-center justify-between bg-white lg:mt-10 py-2 md:px-10 px-7'>
+            <div className='md:flex items-center justify-between bg-white lg:mt-8 py-2 md:px-10 px-7'>
                 <div className='font-bold text-2xl cursor-pointer flex items-center font-[Agbalumo] text-gray-800'>
                     <span className='text-3xl text-yellow-400 mr-1 pt-1'>
                         <GiCommercialAirplane></GiCommercialAirplane>
