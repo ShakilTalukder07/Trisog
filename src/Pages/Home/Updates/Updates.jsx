@@ -13,7 +13,7 @@ const Updates = () => {
             </div>
             <motion.div 
             initial={{ opacity: 0 }}
-            whileInView={{ opacity: 8 }}
+            whileInView={{ opacity: 4 }}
             viewport={{ once: true }}
             className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-10">
 
@@ -54,7 +54,7 @@ const Updates = () => {
 
             <motion.div
                 initial={{ opacity: 0 }}
-                whileInView={{ opacity: 20 }}
+                whileInView={{ opacity: 4 }}
                 viewport={{ once: true }}
                 className='flex flex-wrap justify-center items-center gap-4 my-10'>
                 <p className='font-bold [writing-mode:vertical-rl]'>@trisog</p>
