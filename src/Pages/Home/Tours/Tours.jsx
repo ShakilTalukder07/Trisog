@@ -25,6 +25,20 @@ const Tours = () => {
                     slidesPerView={4}
                     spaceBetween={30}
                     pagination={true}
+                    breakpoints={{
+                        360: {
+                            slidesPerView: 2,
+                            spaceBetween: 30
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 30
+                        },
+                        991: {
+                            slidesPerView: 4,
+                            spaceBetween: 30
+                        },
+                    }}
                     autoplay={{
                         delay: 1500
                     }}
@@ -32,7 +46,7 @@ const Tours = () => {
                     // loop={true}
                     modules={[Pagination, Navigation, Autoplay]}
 
-                    className="mySwiper"
+                    className="mySwiper max-w-screen-xl  mx-auto"
 
                 >
                     <SwiperSlide>
@@ -149,7 +163,7 @@ const Tours = () => {
                             </div>
                         </div>
                     </SwiperSlide>
-                    
+
                     <SwiperSlide>
                         <div className="flex flex-col w-48 h-80">
                             <div className="relative">

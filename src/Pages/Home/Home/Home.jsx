@@ -2,6 +2,7 @@ import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
 import ChooseUs from "../ChooseUs/ChooseUs";
 import Contact from "../Contact/Contact";
+import Features from "../Features/Features";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Topbar from "../Topbar/Topbar";
@@ -17,6 +18,7 @@ const Home = () => {
             <Category></Category>
             <ChooseUs></ChooseUs>
             <Tours></Tours>
+            <Features></Features>
             <Contact></Contact>
             <Updates></Updates>
             <Footer></Footer>
